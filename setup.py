@@ -23,6 +23,11 @@ setup(
         'requests >= 2.21.0, <= 2.24.0',
         'simplejson >= 3.16.0, <= 3.17.2',
     ],
+    project_urls={
+        'Documentation': 'https://goshippo.com/docs/',
+        'Source': 'https://github.com/goshippo/shippo-python-client',
+        'Tracker': 'https://github.com/goshippo/shippo-python-client/issues',
+    },
     test_suite='shippo.test.all',
     tests_require=['unittest2', 'mock', 'vcrpy'],
     classifiers=[
